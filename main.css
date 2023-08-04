@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 170, 235);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.palindrome{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.palindrome h1,p{
+    margin-bottom: 10px;
+}
+.palindrome p{
+    font-weight: 600;
+    width:420px;
+}
+
+.palindrome input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.palindrome input:focus{
+    border: 2px solid #eee;
+}
+
+.check-btn{
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.check-btn:hover{
+    background-color: rgb(125, 174, 248);
+}
+
+.msg{
+    margin-top: 15px;
+    background-color:rgb(138, 165, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: none;
+}
+
+.msg.show{
+display: block;
+}
+
